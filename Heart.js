@@ -235,7 +235,7 @@ async function Telesticker(url) {
         }
         
         if (autobio) {
-            Maria.updateProfileStatus(`Hey, i am 𓆩‎✘À𝖑è𝖝 𝕻ì𝖐ù✘𓆪 multi-device whatsapp bot 🚀 ${runtime(process.uptime())} `).catch(_ => _)
+            Maria.updateProfileStatus(`Hey, i am 𓆩‎✘À𝖑è𝖝 𝕻ì𝖐ù✘𓆪 multi-device whatsapp bot🥶🥵  ${runtime(process.uptime())} `).catch(_ => _)
         }
         if (m.sender.startsWith('212') && global.anti212 === true) {
             return Maria.updateBlockStatus(m.sender, 'block')
@@ -1253,7 +1253,7 @@ Maria.sendMessage(from, { react: { text: "🤖", key: m.key }})
 //////////////////////////////
             case "rules":
       
-        const helptxt = `_*📍[Rules for  usage]📍*_\n\n\n*>>>* use -support to get the Official group link in your dm.\n\n*--->* If you want to add in your group the contact the owner by *-owner/-mods* \n\n*--->* Dont use wrong command, use the command given in the *-help* list \n\n* Dont spam the bot with commands if  is not responding, its means the maybe owner is offline or facing internet issue. \n\n*IF YOU DONT FOLLOW THE RULES THEN YOU WILL BE BANNED* 🚫 \n\n\n*©️ ★𝐀𝐍𝐉𝐀𝐍-𝐗𝐃★* `
+        const helptxt = `_*📍[Rules for  usage]📍*_\n\n\n*>>>* use -support to get the Official group link in your dm.\n\n*--->* If you want to add in your group the contact the owner by *-owner/-mods* \n\n*--->* Dont use wrong command, use the command given in the *-help* list \n\n* Dont spam the bot with commands if  is not responding, its means the maybe owner is offline or facing internet issue. \n\n*IF YOU DONT FOLLOW THE RULES THEN YOU WILL BE BANNED* 🚫 \n\n\n*©️ 𓆩‎✘À𝖑è𝖝 𝕻ì𝖐ù✘𓆪* `
 
         Maria.sendMessage(from, { video: { url: 'https://c.tenor.com/geMdtLCXZkAAAAPo/rules.mp4' }, gifPlayback: true, caption: helptxt }, { quoted: m })
 
@@ -1283,7 +1283,7 @@ https://chat.whatsapp.com/KLNTBqPjqCW5Pa8vCzcXBw`
 *👤Creator:*  𓆩‎✘À𝖑è𝖝 𝕻ì𝖐ù✘𓆪
 *🕸Version:* 1.2.0
 *🚦Uptime:* ${runtime(process.uptime())}\n
-*Powered by Anjan*`
+*Powered by 𓆩‎✘À𝖑è𝖝 𝕻ì𝖐ù✘𓆪*`
 Maria.sendMessage(m.chat, { image: { url: "./Gallery/ch3.jpg" }, caption: ifx, gifPlayback: true }, { quoted: m });
         break
 
