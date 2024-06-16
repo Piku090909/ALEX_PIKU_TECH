@@ -298,10 +298,10 @@ MariaLft = await getBuffer(ppuser)
 	            const xmembers = metadata.participants.length
 Mariabody = `┌──⊰ 🎗𝑾𝑬𝑳𝑪𝑶𝑴𝑬🎗⊰
 │⊳  🌐 To: ${metadata.subject}
-│⊳  📋 Name: @${MariaName.split("@")[0]}
+│⊳
 │⊳  👥 Members: ${xmembers}th
 │⊳  🕰️ Joined: ${xtime} ${xdate}
-└──────────⊰`
+└────𓆩‎✘À𝖑è𝖝 𝕻ì𝖐ù✘𓆪──────⊰`
 Maria.sendMessage(anu.id,
  { text: Mariabody,
  contextInfo:{
@@ -323,10 +323,10 @@ Maria.sendMessage(anu.id,
      Mariabody = `┌──⊰🍁𝑭𝑨𝑹𝑬𝑾𝑬𝑳𝑳🍁⊰
 │⊳  👤 From: ${metadata.subject}
 │⊳  📃 Reason: Left
-│⊳  📔 Name: @${MariaName.split("@")[0]}
+│⊳
 │⊳  👥 Members: ${Mariamembers}th
 │⊳  🕒 Time: ${Mariatime} ${Mariadate}
-└──────────⊰`
+└─────𓆩‎✘À𝖑è𝖝 𝕻ì𝖐ù✘𓆪─────⊰`
 Maria.sendMessage(anu.id,
  { text: Mariabody,
  contextInfo:{
