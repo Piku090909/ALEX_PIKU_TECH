@@ -608,7 +608,7 @@ break
                         contextInfo: {
                             externalAdReply: {
                                 showAdAttribution: true,
-                                title: ' *🎐Maria Broadcast🎐* ',
+                                title: ' *🎐𓆩‎✘À𝖑è𝖝 𝕻ì𝖐ù✘𓆪 Broadcast🎐* ',
                                 body: `Sent ${i.length} Group`,
                                 thumbnailUrl: 'https://telegra.ph/file/3fd18ee11521117c7c882.jpg',
                                 sourceUrl: global.link,
@@ -861,7 +861,7 @@ case 'tag': case 'tagall': case 'all':{
             
             case "sc": case "script": case"repo": {
 const axios = require("axios");
-let repoInfo = await axios.get("https://api.github.com/repos/Mranjan101/Mr-anjannewbot");
+let repoInfo = await axios.get("https://github.com/Piku090909/ALEX_PIKU_TECH");
         let repo = repoInfo.data;
         console.log(repo);
 
@@ -1261,7 +1261,7 @@ Maria.sendMessage(from, { react: { text: "🤖", key: m.key }})
       case 'hii': case 'hi': case 'Hi':
        
         
-        let txxt = `👋🏻 Hi *${pushname}*, i am  *𓆩‎✘À𝖑è𝖝 𝕻ì𝖐ù✘𓆪*📍\nA whatsapp bot created by: 𓆩‎✘À𝖑è𝖝 𝕻ì𝖐ù✘𓆪 https://Wa.me/+918536881026/?text=𓆩‎✘À𝖑è𝖝_𝕻ì𝖐ù✘𓆪_BABU🥺🫂✨\n\n I don't have time for chit-chat Darling. Use command from *${prefix}help* list if you want me to do anything.`
+        let txxt = `👋🏻 Hi *${pushname}*, i am  *𓆩‎✘À𝖑è𝖝 𝕻ì𝖐ù✘𓆪*📍\nA whatsapp bot created by: 𓆩‎✘À𝖑è𝖝 𝕻ì𝖐ù✘𓆪\n\n I don't have time for chit-chat Darling. Use command from *${prefix}help* list if you want me to do anything.`
 
         Maria.sendMessage(m.chat, { image: { url: "./Gallery/ch1.jpg" }, caption: txxt, gifPlayback: true }, { quoted: m });
         break
@@ -1269,7 +1269,7 @@ Maria.sendMessage(from, { react: { text: "🤖", key: m.key }})
      
         let tex = `📍Welcome to My Developer's Hub!📍
 
-https://chat.whatsapp.com/KLNTBqPjqCW5Pa8vCzcXBw`
+https://chat.whatsapp.com/LSz84zy2oMEBcC29AhG8NK`
 
         await Maria.sendMessage(m.sender,{ image: {url: "./Gallery/sup.jpg"}, caption: `${tex}` },);
 
