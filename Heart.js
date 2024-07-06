@@ -1158,7 +1158,7 @@ let yts = require("youtube-yts")
         let search = await yts(text)
         let anup3k = search.videos[0]
 const pl= await Ayushplaymp3.mp3(anup3k.url);
-reply('```💫𓆩‎✘À𝖑è𝖝 𝕻ì𝖐ù✘𓆪  𝐒𝚵𝚴𝐃𝚰𝚴𝐆 𝐒𝚯𝚴𝐆.....💫```');
+reply('```💫𝛥𝐿𝛯𝛸 𝛲𝛪𝛫𝑈 𝛭𝐷 𝐒𝚵𝚴𝐃𝚰𝚴𝐆 𝐒𝚯𝚴𝐆.....💫```');
 await Maria.sendMessage(m.chat,{
     audio: fs.readFileSync(pl.path),
     fileName: anup3k.title + '.mp3',
@@ -2221,7 +2221,7 @@ https://chat.whatsapp.com/${response}
         case 'test': case 'p': case 'ping': 
         let timestampe = speed()
         let latensie = speed() - timestampe
-         reply(`🎊Bot is active\n\n📍*pong* ${latensie.toFixed(4)} miliseconds\n\n✨️Type ${prefix}help`)
+         reply(`🎊𝛥𝐿𝛯𝛸 𝛲𝛪𝛫𝑈 Bot is active\n\n📍*pong* ${latensie.toFixed(4)} miliseconds\n\n✨️Type ${prefix}help`)
         break   
     
         
